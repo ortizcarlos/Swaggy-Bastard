@@ -34,7 +34,7 @@
         <h1>
 <a name="bastard-theme-for-ghost" class="anchor" href="#bastard-theme-for-ghost"><span class="octicon octicon-link"></span></a>Bastard Theme for Ghost</h1>
 
-<p>A free boilerplate responsive theme for <a href="https://ghost.org">Ghost</a> blogging platform. </p>
+<p>A free boilerplate responsive theme for <a href="https://ghost.org">Ghost</a> blogging platform.</p>
 
 <p>Bastard theme was built using <a href="http://getbootstrap.com/">Bootstrap 3</a>, <a href="http://sass-lang.com">SASS</a>, <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>, <a href="http://bower.io/">Bower</a>, and <a href="http://gruntjs.com/">Grunt</a>. Grunt is used to automate tasks for compiling and minifying the theme components and Bower to manage package dependencies. You can use the theme as is, or customize it by editing the <code>bastard.js</code> and <code>/assets/sass/*.scss</code> files.</p>
 
@@ -60,16 +60,16 @@
 </li>
 <li>Fully responsive layout</li>
 <li>Retina display ready, looks great on any device or resolution</li>
-<li>Full screen cover page with parallax effect </li>
-<li>Syntax highlighting using Highlight.js</li>
+<li>Full screen cover page with parallax effect</li>
+<li>Syntax highlighting using <a href="http://highlightjs.org">HighlightJs</a>
+</li>
 <li>One file css/js for performance optimization</li>
-<li>uses Imagemin and Svgmin to optimize jpeg, png, and svg images</li>
 <li>Automatic linting, compiling, and minification of SCSS and JS files using Grunt</li>
 <li>Automatic image file size optimization using IMGMin and SVGMin</li>
 <li>Easily update theme dependencies using Bower package manager</li>
 <li>Google Analytics integrated</li>
 <li>Includes FitVids.Js for fluid video embeds</li>
-<li>It's free:) </li>
+<li>It's free:)</li>
 </ul><h2>
 <a name="using-bastard-theme" class="anchor" href="#using-bastard-theme"><span class="octicon octicon-link"></span></a>Using Bastard Theme</h2>
 
@@ -85,15 +85,15 @@
 
 <ol>
 <li>Make sure you have <a href="http://nodejs.org">Node.js</a>, <a href="http://bower.io">Bower</a> and <a href="gruntjs.com">Grunt</a> installed on your system.</li>
-<li>Copy theme folder to Ghost themes directory <code>/content/themes</code>. Open your terminal and make the theme's folder your current working directory.<br>
-</li>
+<li>Copy theme folder to Ghost themes directory <code>/content/themes</code>. Open your terminal and make the theme's folder your current working directory.</li>
 <li>Run <code>bower install</code> to install package dependencies.</li>
-<li>Run <code>npm install</code> to install Grunt components. </li>
-<li>Restart Ghost and switch the theme to use <code>Bastard</code> in the Ghost's Settings. </li>
+<li>Run <code>npm install</code> to install Grunt components.</li>
+<li>Restart Ghost and switch the theme to use <code>Bastard</code> in the Ghost's Settings.</li>
 <li>Make your changes by updating <code>/sass/*</code>, <code>/assets/*</code>, and <code>*.hbs</code> files of the theme.</li>
 <li>Run <code>grunt watch</code> to start watching for file changes or run <code>grunt</code> to build your latest changes.</li>
 <li>If you have new images for the theme, just place them inside <code>image_sources</code> folder and Grunt will handle the optimisation automatically and store the optimized version inside <code>assets/images/</code>.</li>
 <li>Update the social media icon links by updating <code>partials/social.hbs</code>.</li>
+<li>Update gravatar by updating URL in <code>partials/gravatar.hbs</code>.</li>
 </ol><h2>
 <a name="resources--dependencies" class="anchor" href="#resources--dependencies"><span class="octicon octicon-link"></span></a>Resources &amp; Dependencies</h2>
 
